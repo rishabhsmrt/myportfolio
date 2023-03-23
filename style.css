@@ -56,3 +56,9 @@ body{
     flex-direction: column;
     font-family: monospace;
 }
+
+@media screen and (max-width: 992px) {
+    body{
+        background-image: url("background2.jpg");
+    }
+  }
