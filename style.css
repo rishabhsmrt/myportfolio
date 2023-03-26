@@ -1,7 +1,15 @@
 
 body{
-    background-image: url("background.jpg");
+    background-image: url("/img/background.jpg");
     background-size: cover;
+}
+
+h2{
+    font-family: ui-sans-serif;
+}
+
+h4{
+    font-family: ui-sans-serif;
 }
 
 .container{
@@ -59,6 +67,11 @@ body{
 
 @media screen and (max-width: 992px) {
     body{
-        background-image: url("background2.jpg");
+        background-image: url("/img/background2.jpg");
     }
   }
+
+.profsummary{
+    margin: 50px;
+}
+   
