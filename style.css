@@ -1,15 +1,26 @@
 
 body{
-    background-image: url("./img/background.jpg");
     background-size: cover;
+    margin-left: 10px;
 }
-
+a{
+    all: unset;
+}
 h2{
     font-family: ui-sans-serif;
+    font-size: xx-large;
 }
 
 h4{
     font-family: ui-sans-serif;
+    font-size: x-large;
+    margin-bottom: 0px;
+}
+
+h5{
+    font-family: ui-sans-serif;
+    font-size: x-large;
+    margin-top: 5px;
 }
 
 .container{
@@ -41,23 +52,32 @@ h4{
     margin: 50px;
     display: flex;
     flex-direction: column;
+    color: black;
 }
 
 #name{
     margin: 0px;
     font-size: 80px;
-    color: rgb(256, 256, 256);
+    color:rgb(117, 78, 145)
+}
+
+#name:hover{
+    color: rgb(0, 0, 0);
+}
+
+#designation:hover{
+    color: rgb(0, 0, 0);
 }
 
 #designation{
     margin: 0px;
-    color: rgb(256, 256, 256);
+    color: rgb(117, 78, 145);
     font-size: 55px;
 }
 
 .information2{
     margin: 0px;
-    color: rgb(256, 256, 256);
+    color: rgb(117, 78, 145);
     margin-left: 40px;
     display: flex;
     font-size: 25px;
@@ -65,13 +85,43 @@ h4{
     font-family: monospace;
 }
 
-@media screen and (max-width: 992px) {
-    body{
-        background-image: url("./img/background2.jpg");
-    }
-  }
-
 .profsummary{
     margin: 50px;
 }
    
+.download{
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+button{
+    transition-duration: 0.4s;
+    width: 150px;
+    height: 50px;
+    font-family: monospace;
+    font-size: 25px;
+    margin: 10px 10px;
+}
+  
+button:hover{
+    background-color: rgb(117, 78, 145); /* Green */
+    color: white;
+}
+
+.workexp{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 1000;
+    color:rgb(117, 78, 145);
+}
+
+.exp{
+    padding-left: 30px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .workexp{
+        font-size: 12px;
+    }
+  }

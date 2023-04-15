@@ -9,22 +9,27 @@
 <body>
 	<div class="container">
 		<div class="navbar">
-			<ul id="About">About</ul>
-			<ul id="Experience">Experience</a></ul>
-			<ul id="Contact">Contact</ul>
+			<ul id="About"><a href="#information">About</a></ul>
+			<ul id="Experience"><a href="#exp">Experience</a></ul>
+			<ul id="Contact"><a href="#download">Contact</a></ul>
 		</div>
 		<div class="info">
 			<div>
 				<img id="image" src=".\img\img.jpeg" alt="Image not displayed">
 			</div>
-			<div class="information">
+			<div class="information" id="information">
 				<ul id="name">Rishabh Srivastava</ul>
 				<ul id="designation">Software Engineer</ul>
 				<div class="information2">
 					AGE: 25 <br>
 					PHONE: (+91) 8840200832 <br>
 					EMAIL: rishbh.1000@gmail.com <br>
-					ADDRESS: 554 KHA 243 Visheshwar Nagar Alambagh Lucknow
+				</div>
+				<div class="download" id="download">
+					<button onclick="document.getElementById('link').click()">Resume</button>
+					<a id="link" href="Rishabh_CV.pdf" download></a>
+					<button onclick="document.getElementById('email').click()">Contact</button>
+					<a id="email" href="mailto:rishbh.1000@gmail.com"></a>
 				</div>
 			</div>
 
@@ -33,27 +38,39 @@
 			<h2>
 				Work Experience
 			</h2>
-			<h4>SOFTWARE ENGINEER <p>
-				NI, National Instrument | 07/2021 to 02/2023 | Bangalore</h4>
-			<ul>
-				<li>Worked in MSC Drivers Team which maintain the drivers code for
-					various hardware provided at NI. Responsibilities include coordinating
-					with external stakeholders on active development, maintaining CI/CD
-					pipelines and making product release ready. Worked on C++, git,
-					CI/CD pipelins, react and node js. 
-				</li>
-				<li>
+			<div class="exp" id="exp">
+				<h4>SOFTWARE ENGINEER </h4>
+				<h5>NI, National Instrument | 07/2021 to 02/2023 | Bangalore Karnataka</h5>
+				<ul class="workexp">
+					<li>Worked in MSC Drivers Team which maintain the drivers code for
+						various hardware provided at NI. Responsibilities include coordinating
+						with external stakeholders on active development, maintaining CI/CD
+						pipelines and making product release ready. Worked on C++, git,
+						CI/CD pipelins, react and node js.
+					</li>
+					<li>
 						Worked in Installers team which focus on publishing software package
 						through company own package manager created Software packages
 						for RFmx 2022 Q3 and RFmx 2022 Q4 releases worked on CI
 						pipelines, Azure Devops, Git, Build Tools, GNU makefile, MSI, WiX
-						toolset (Windows Installer XML), Perforce, Perl and Python 
-				</li>
-				<li> Worked in VNV team for RFSA/G driver software run and Debug daily
-					build failures worked on LabVIEW, Jenkins and Kibana.
-				</li>
-			</ul>
+						toolset (Windows Installer XML), Perforce, Perl and Python
+					</li>
+					<li> Worked in VNV team for RFSA/G driver software run and Debug daily
+						build failures worked on LabVIEW, Jenkins and Kibana.
+					</li>
+				</ul>
+				<h4>Mentor </h4>
+				<h5>Crio.do | 07/2021 to 08/2021 | Bangalore Karnataka</h5>
+				<ul class="workexp">
+					<li>
+						Conducted weekly classes on data structures and algorithms for a group of 10 students. Provided
+						individualized support to students during doubt session classes to help them overcome
+						challenges.
+					</li>
+				</ul>
+			</div>
 		</div>
+	</div>
 	</div>
 </body>
 
