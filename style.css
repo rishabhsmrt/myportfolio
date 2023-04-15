@@ -122,6 +122,11 @@ button:hover{
     padding-left: 30px;
 }
 
+#tech{
+    font-size: 15px;
+    font-family: 'Courier New';
+    font-weight: 900;
+}
 
 @media screen and (max-width: 900) {
     .workexp {
