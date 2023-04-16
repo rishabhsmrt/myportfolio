@@ -40,10 +40,14 @@ h5{
 }
 
 #image{
-    margin: 50px;
-    max-width: 350px;
-    max-height: 500px;
+    margin: 50px 66px;
+    max-width: 325px;
+    max-height: 425px;
     border-image: 20px;
+}
+
+.imageClass:hover{
+    transform: scale(1.1);
 }
 
 .info{
